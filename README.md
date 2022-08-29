@@ -26,7 +26,7 @@ mkdir -p $DAEMON_HOME/cosmovisor/upgrades
 ```
 # Source dosyalarını cosmovisor altına taşıyoruz:
 ```
-cp $HOME/go/bin/rebusd $DAEMON_HOME/cosmovisor/genesis/bin
+cp $HOME/go/bin/sourced $DAEMON_HOME/cosmovisor/genesis/bin
 ```
 
 # Servis dosyasını güncelliyoruz
