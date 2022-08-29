@@ -26,12 +26,12 @@ mkdir -p $DAEMON_HOME/cosmovisor/upgrades
 ```
 # Source dosyalarını cosmovisor altına taşıyoruz:
 ```
-cp $HOME/go/bin/sourced $DAEMON_HOME/cosmovisor/genesis/bin
+cp /home/root/go/bin/sourced $DAEMON_HOME/cosmovisor/genesis/bin
 ```
 
-# Servis dosyasını güncelliyoruz
+# Servis dosyasına giriyoruz. Ctrl + X + Y ve Enter ile çıkış yapıyoruz.
 ```
-sudo nano /etc/systemd/system/sourced.service
+sudo nano /etc/systemd/system/cosmovisor.service
 ```
 # Servis dosyasını düzenliyoruz
 ```
